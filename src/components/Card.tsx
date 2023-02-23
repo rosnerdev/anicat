@@ -1,7 +1,7 @@
 import { IAnime } from "@shineiichijo/marika";
 import Image from "next/image";
 
-const Card: React.FunctionComponent<{anime: IAnime}> = ({anime}) => {
+const Card = ({anime}: {anime: IAnime}) => {
     return (
         <>
             {anime?.score && anime?.year && anime?.type && <div className="flex align-top w-full p-3 rounded-md space-x-4 bg-slate-300 text-slate-700">

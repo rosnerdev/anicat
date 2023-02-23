@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import Nav from "./Navbar/Nav";
 import Main from "./Main";
 
- const Layout: React.FunctionComponent<{children: ReactNode}> = ({children}) => {
+ const Layout = ({children}: {children: ReactNode}) => {
     return (
         <>
             <Nav/>
