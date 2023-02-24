@@ -10,7 +10,7 @@ const topTen = ({ data }: topTenProps) => {
     return (
         <>
             <Head>
-                <title>AnimeCat | Top 10</title>
+                <title>AniCat | Top 10</title>
                 <meta name="description" content="Top 10 animes in all of MyAnimeList" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />

@@ -17,7 +17,7 @@ const Search = ({ }) => {
     return (
         <>
             <Head>
-                <title>AnimeCat | Search</title>
+                <title>AniCat | Search</title>
                 <meta name="description" content="Search for any anime you can think of." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
